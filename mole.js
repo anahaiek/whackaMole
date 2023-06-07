@@ -113,4 +113,9 @@ function selectTile() {
         document.getElementById("score").innerText = "GAME OVER: " + score.toString();
         gameOver = true;
     }
+    
+      else if (this == currPlantTile2) {
+        document.getElementById("score").innerText = "GAME OVER: " + score.toString();
+        gameOver = true;
+    }
 }
